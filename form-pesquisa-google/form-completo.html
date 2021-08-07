@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario Completo</title>
+</head>
+<body>
+    <h3>Cadastro Pessoal</h3>
+    <form action="">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento</label>
+            <input type="date" name="birthday" id="birthday">
+            <label for="photo"></label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nacionalidade</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russia</option>
+                <option value="brazil">Brasil</option>
+                <option value="italy">Italia</option> 
+            </select> - 
+            Genero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female " value="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male " value="male">
+        </div>
+        <br>
+        <div>
+            Suas pricipais qualidades: <br>
+            <label for="inteligencia">Iteligendia</label>
+            <input type="checkbox" name="inteligencia " id="inteligencia"> |
+            <label for="resi">Resiliencia</label> 
+            <input type="checkbox" name="resi " id="resi"> |
+            <label for="ta">Tatica</label>
+            <input type="checkbox" name="ta " id="ta">
+        </div>
+        <br>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Me conte mais"></textarea>
+        <br>
+        <input type="submit" value="Criar">
+
+    </form>
+</body>
+</html>
